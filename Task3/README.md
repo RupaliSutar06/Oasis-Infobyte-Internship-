@@ -2,10 +2,10 @@
 
 ## 📌 Description
 
-This project focuses on predicting the **price of a car** using **machine learning techniques**.
+This project focuses on predicting the **price of a car** using **machine learning techniques**.  
 The prediction is based on various car features such as brand, model, year, fuel type, transmission, and other relevant attributes.
 
-The project is implemented using **Jupyter Notebook** and includes **data preprocessing**, **exploratory data analysis**, **model training**, and **price prediction**.
+The project is implemented using **Python scripts** and includes **data preprocessing**, **exploratory data analysis**, **feature engineering**, **model training**, and **price prediction**.
 
 ---
 
@@ -21,20 +21,21 @@ The project is implemented using **Jupyter Notebook** and includes **data prepro
 
 ## 📂 Project Structure
 
-```
 Car_Price_Prediction/
 │
 ├── src/
-│   └── car_price_prediction.ipynb
+│ └── car_price_ml.py # Python script
 │
 ├── data/
-│   └── car_data.csv
+│ └── car_data.csv # Dataset
 │
-├── output/
-│   └── graphs & results
+├── outputs/
+│ ├── selling_price_distribution.png
+│ ├── feature_vs_price.png
+│ └── actual_vs_predicted.png
 │
+├── requirements.txt # Dependencies
 └── README.md
-```
 
 ---
 
@@ -51,48 +52,45 @@ Car_Price_Prediction/
 
 ## 📊 Sample Output
 
-### 1️⃣ Car Price Distribution
+### 1️⃣ Selling Price Distribution
 
 This graph shows the distribution of car prices in the dataset.
 
-![Car Price Distribution](output/car_price_distribution.png)
+![Selling Price Distribution](outputs/selling_price_distribution.png)
 
 ---
 
-### 2️⃣ Feature vs Price Analysis
+### 2️⃣ Car Age vs Price Analysis
 
-This visualization shows the relationship between important car features and car prices.
+This visualization shows the relationship between **Car Age** and car prices.
 
-![Feature vs Price](output/feature_vs_price.png)
+![Feature vs Price](outputs/feature_vs_price.png)
 
 ---
 
-### 3️⃣ Model Prediction Results
+### 3️⃣ Actual vs Predicted Prices
 
-This output shows the comparison between actual and predicted car prices.
+This output shows the comparison between **actual** and **predicted** car prices.
 
-![Prediction Results](output/prediction_results.png)
+![Actual vs Predicted](outputs/actual_vs_predicted.png)
 
 ---
 
 ### 4️⃣ Model Evaluation
 
-This section represents the performance of the regression model using evaluation metrics.
-
-![Model Evaluation](output/model_evaluation.png)
+The model performance can be measured using metrics like **R² Score** printed in the script.
 
 ---
 
 ## ✅ Conclusion
 
-The machine learning model successfully predicts car prices with reasonable accuracy.
+The machine learning model predicts car prices accurately.  
 This project demonstrates the practical application of **regression algorithms** and **data analysis techniques** in real-world scenarios.
 
 ---
 
 ## 👩‍💻 Author
 
-**Rupali Sutar**
-BE Computer Engineering
+**Rupali Sutar**  
+BE Computer Engineering  
 Data Science & Machine Learning Enthusiast
-
